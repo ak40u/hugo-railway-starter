@@ -1,0 +1,8 @@
+languageCode = "en-us"
+title = "My Hugo Site"
+
+# baseURL is supplied at build time from RAILWAY_PUBLIC_DOMAIN, so links and
+# canonical URLs are correct without editing this file after every deploy.
+
+[outputs]
+home = ["HTML", "RSS"]
