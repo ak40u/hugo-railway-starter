@@ -1,7 +1,7 @@
 # Build the site with a pinned Hugo, then serve the static output with Caddy.
 # A Dockerfile keeps this deterministic: the platform's builder cannot decide to
 # run something else, which is exactly how the nixpacks-based version broke.
-FROM hugomods/hugo:0.164.0 AS build
+FROM hugomods/hugo:0.165.0 AS build
 
 WORKDIR /src
 COPY . .

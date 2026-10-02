@@ -25,7 +25,7 @@ served by Caddy.
 
 | File | Why it exists |
 |------|---------------|
-| `Dockerfile` | Two stages: `hugomods/hugo:0.164.0` builds, `caddy:2-alpine` serves |
+| `Dockerfile` | Two stages: `hugomods/hugo:0.165.0` builds, `caddy:2-alpine` serves |
 | `Caddyfile` | Serves `/srv` on `$PORT`, gzip/zstd, a real 404 page |
 | `hugo.toml` | Site config; `baseURL` comes from the build, not from this file |
 | `layouts/` | Minimal templates — a list, a single page, and a shared shell |
